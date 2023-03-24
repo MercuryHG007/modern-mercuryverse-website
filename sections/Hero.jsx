@@ -26,7 +26,7 @@ const Hero = () => (
           variants={textVariant(1.1)}
           className={styles.heroHeading}
         >
-          MercuryVerse
+          MercuryVerse <br className="md:hidden block" /> <span className="xxs:flex xxs:justify-center lg:inline-flex">Of</span>
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}

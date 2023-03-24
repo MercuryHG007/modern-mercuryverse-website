@@ -24,7 +24,7 @@ const About = () => (
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
-        title="| About Metaversus"
+        title="| About Metaverse"
         textStyles="text-center"
       />
       <motion.p
