@@ -24,12 +24,38 @@
   filter: blur(125px);
 }
 
-.hero-gradient {
+/* .hero-gradient {
   background: linear-gradient(
     97.86deg,
     #a509ff 0%,
     #34acc7 53.65%,
     #a134c7 100%
+  );
+} */
+
+.bg{
+  /* background-color: #000000f5; */
+  background-color: #000;
+}
+
+.heroImg{
+  -webkit-animation: morph 8s ease-in-out;
+  animation: morph 8s ease-in-out;
+}
+
+.hero-gradient {
+  /* background: linear-gradient(
+    97.86deg,
+    #0E0E0C 10%,
+    #969392 50%,
+    #0E0E0C 90%
+  ); */
+  background: linear-gradient(
+    97.86deg,
+    #0E0E0C 15%,
+    #383838 30%,
+    #969392 50%,
+    #0E0E0C 70%
   );
 }
 
