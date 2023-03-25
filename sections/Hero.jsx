@@ -7,7 +7,7 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion.js';
 
 const Hero = () => (
   <section
-    className={`${styles.yPaddings} sm:pl-16 pl-6`}
+    className={`${styles.yPaddings} xxs:pl-8 pl-4`}
   >
     <motion.div
       variants={staggerContainer}
@@ -20,19 +20,19 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div
-        className="flex justify-center items-center flex-col relative z-10"
+        className="flex justify-center md:mx-auto flex-col relative z-10 "
       >
         <motion.h1
           variants={textVariant(1.1)}
           className={styles.heroHeading}
         >
-          MercuryVerse <br className="md:hidden block" /> <span className="xxs:flex xxs:justify-center lg:inline-flex">Of</span>
+          MercuryVerse<br className="md:hidden block" /> <span className="flex xxs:justify-center items-center w-[60%] xl:w-[100%] lg:inline-flex">Of</span>
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center lg:mb-0 md:mb-4"
         >
-          <h1
+          {/* <h1
             className={styles.heroHeading}
           >
             Ma
@@ -44,22 +44,27 @@ const Hero = () => (
             className={styles.heroHeading}
           >
             Ness
-          </h1>
+          </h1> */}
+          <img
+            src="./GOT.png"
+            alt="GOT"
+            className="xxs:h-[44px] sm:h-[90px] lg:h-[114px] lg:mt-[10px] xl:mt-[30px] md:mt-[15px] xxs:mt-[5px] mb-5"
+          />
         </motion.div>
       </div>
       <motion.div
         variants={slideIn('right', 'tween, 0.2, 1')}
-        className="relative w-full md:-mt-[20px] -mt-[12px]"
+        className="relative w-full md:-mt-[20px] -mt-[12px] pl-10"
       >
         <div
-          className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]"
+          className="absolute w-[96.9%] h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]"
         />
-        <img src="/cover.png" alt="cover" className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative" />
+        <img src="/cover_1.webp" alt="cover" className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative shadow-xl dark:shadow-black" />
         <a
           href="#explore"
         >
           <div
-            className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10"
+            className="heroImg w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10"
           >
             <img src="./stamp.png" alt="stamp" className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain" />
           </div>

@@ -22,8 +22,12 @@ const Navbar = () => (
       <h2
         className="font-extrabold text-[24px] leading-[30px] text-white"
       >
-        MERCURYVERSE
+        GAME OF THRONES
       </h2>
+      {/* <img
+        src="./GOT_logo.png"
+        className="h-[100px] z-10"
+      /> */}
       <img src="/menu.svg" alt="menu" className="w-[24px] h-[24px] object-contain" />
     </div>
   </motion.nav>
