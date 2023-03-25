@@ -24,14 +24,15 @@ const About = () => (
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
-        title="| About Metaverse"
+        title="| About GOT"
         textStyles="text-center"
       />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse </span>is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <span className="font-extrabold text-white"> madness of the metaverse </span> of today, using only <span className="font-extrabold text-white"> VR</span> devices you can easily explore the metaverse world you want,<span className="font-extrabold text-white"> turn your dreams into reality.</span> Let's explore the madness of the metaverse by scrolling down.
+        {/* <span className="font-extrabold text-white">Metaverse </span>is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <span className="font-extrabold text-white"> madness of the metaverse </span> of today, using only <span className="font-extrabold text-white"> VR</span> devices you can easily explore the metaverse world you want,<span className="font-extrabold text-white"> turn your dreams into reality.</span> Let's explore the madness of the metaverse by scrolling down. */}
+        <span className="font-extrabold text-white">Game of Thrones</span> is a popular television series based on the series of fantasy novels by <span className="font-extrabold text-white">George R. R. Martin</span>. The series is set in the fictional <span className="font-extrabold text-white">world of Westeros</span>, a continent with seven kingdoms ruled by <span className="font-extrabold text-white">different families</span>. The story follows the political and personal struggles between various noble houses as they vie for <span className="font-extrabold text-white">power and control of the Iron Throne</span>, the seat of power in Westeros.
       </motion.p>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
