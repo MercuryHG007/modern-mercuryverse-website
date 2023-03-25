@@ -7,10 +7,15 @@ import { ExploreCard, TitleText, TypingText } from '../components';
 import styles from '../styles';
 import { staggerContainer } from '../utils/motion.js';
 
-import { exploreWorlds } from '../constants';
+import { exploreHouse, exploreSeat } from '../constants';
 
-const Explore = () => {
-  const [active, setActive] = useState('world-2');
+const Explore = ({ house, changeHouse }) => {
+  const [active, setActive] = useState(house);
+
+  const ActiveHouse = (seat) => {
+    setActive(seat);
+    changeHouse(seat);
+  };
 
   return (
     <section
@@ -28,23 +33,24 @@ const Explore = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText
-          title="| The World"
+          title="| The Seats"
           textStyles="text-center"
         />
         <TitleText
-          title={<> Choose the world you want <br className="md:block hidden" /> to explore.</>}
+          title={<> Choose the Seats you want <br className="md:block hidden" /> to explore.</>}
           textStyles="text-center"
         />
         <div
           className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5"
         >
-          {exploreWorlds.map((world, index) => (
+          {exploreSeat.map((seat, index) => (
             <ExploreCard
-              key={world.id}
-              {...world}
+              key={seat.id}
+              {...seat}
               index={index}
               active={active}
-              handleClick={setActive}
+              seat={exploreHouse.find((place) => place.id === seat.id)}
+              handleClick={() => ActiveHouse(seat.id)}
             />
           ))}
         </div>
