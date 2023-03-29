@@ -91,12 +91,12 @@ const lannister = [
     imgUrl: '/members/lannister/TywinLannister.webp',
     desc: 'Lord Tywin Lannister was the head of House Lannister, Lord of Casterly Rock, Warden of the West, Hand of the King for three different kings, and Protector of the Realm. He was the father of Cersei, Jaime, and Tyrion Lannister, and sole grandfather of the incest-born Joffrey, Myrcella, and Tommen Baratheon.',
   },
-  {
-    id: 2,
-    name: 'Kevan Lannister',
-    imgUrl: '/members/lannister/KevanLannister.webp',
-    desc: 'Ser Kevan Lannister was the younger brother of Lord Tywin Lannister and one of his most loyal and trusted officers in the Lannister armies during the War of the Five Kings.',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Kevan Lannister',
+  //   imgUrl: '/members/lannister/KevanLannister.webp',
+  //   desc: 'Ser Kevan Lannister was the younger brother of Lord Tywin Lannister and one of his most loyal and trusted officers in the Lannister armies during the War of the Five Kings.',
+  // },
   {
     id: 3,
     name: 'Cersei Lannister',
@@ -130,18 +130,18 @@ const stark = [
     imgUrl: '/members/stark/EddardStark.webp',
     desc: '',
   },
-  {
-    id: 2,
-    name: 'Lyanna Stark',
-    imgUrl: '/members/stark/LyannaStark.webp',
-    desc: '',
-  },
-  {
-    id: 3,
-    name: 'Benjen Stark',
-    imgUrl: '/members/stark/BenjenStark.webp',
-    desc: '',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Lyanna Stark',
+  //   imgUrl: '/members/stark/LyannaStark.webp',
+  //   desc: '',
+  // },
+  // {
+  //   id: 3,
+  //   name: 'Benjen Stark',
+  //   imgUrl: '/members/stark/BenjenStark.webp',
+  //   desc: '',
+  // },
   {
     id: 4,
     name: 'Robb Stark',
@@ -181,12 +181,12 @@ const stark = [
 ];
 
 const targaryen = [
-  {
-    id: 1,
-    name: 'Maestor Aemon',
-    imgUrl: '/members/targaryen/MaesterAemon.webp',
-    desc: '',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Maestor Aemon',
+  //   imgUrl: '/members/targaryen/MaesterAemon.webp',
+  //   desc: '',
+  // },
   {
     id: 2,
     name: 'Aerys II Targaryen',
@@ -256,12 +256,12 @@ const baratheon = [
     imgUrl: '/members/baratheon/TommenBaratheon.webp',
     desc: '',
   },
-  {
-    id: 8,
-    name: 'Shireen Baratheon',
-    imgUrl: '/members/baratheon/ShireenBaratheon.webp',
-    desc: '',
-  },
+  // {
+  //   id: 8,
+  //   name: 'Shireen Baratheon',
+  //   imgUrl: '/members/baratheon/ShireenBaratheon.webp',
+  //   desc: '',
+  // },
 ];
 
 const greyjoy = [

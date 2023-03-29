@@ -1,6 +1,7 @@
 import styles from '../styles';
 
-const MemberComp = ({ name, imgUrl, desc }) => (
+// const MemberComp = ({ name, imgUrl, desc }) => (
+const MemberComp = ({ name, imgUrl }) => (
   <div
     className={`${styles.flexCenter} flex-row`}
   >
